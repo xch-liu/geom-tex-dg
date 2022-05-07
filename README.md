@@ -17,6 +17,8 @@ If you find this code useful for your research, please cite
 
 ## Preresquisites
 
+### Testbed Install: 
+We use [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch) as the testbed and follow the training and evaluation protocol.
 
 ```bash
 # Create the conda environment (make sure conda is installed)
@@ -34,9 +36,13 @@ conda install pytorch torchvision cudatoolkit=your_cuda_version -c pytorch
 python setup.py develop
 ```
 
-## Datasets Downloads
+### Datasets Install:
+We use three commonly used multi-domain datasets.
 
-PACS: [google drive](https://drive.google.com/open?id=1m4X4fROCCXMO0lRLrr6Zz9Vb3974NWhE).   Office-Home-DG: [google drive](https://drive.google.com/open?id=1gkbf_KaxoBws-GWT3XIPZ7BnkqbAxIFa).   Digits-DG: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
+* PACS ([Li et al., 2017](https://arxiv.org/abs/1710.03077)) | Download Link: [google drive](https://drive.google.com/open?id=1m4X4fROCCXMO0lRLrr6Zz9Vb3974NWhE).
+* Office-Home-DG ([Venkateswara et al., 2017](https://arxiv.org/abs/1706.07522)) | Download Link: [google drive](https://drive.google.com/open?id=1gkbf_KaxoBws-GWT3XIPZ7BnkqbAxIFa).
+* Digits-DG | Download Link: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
+
 
 ## Training
 
