@@ -43,6 +43,9 @@ We use three commonly used multi-domain datasets.
 * Office-Home-DG ([Venkateswara et al., 2017](https://arxiv.org/abs/1706.07522)) | Download Link: [google drive](https://drive.google.com/open?id=1gkbf_KaxoBws-GWT3XIPZ7BnkqbAxIFa).
 * Digits-DG | Download Link: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
 
+```bash
+Please download the datasets in the directory Dassl/data
+```
 
 ## Training
 
