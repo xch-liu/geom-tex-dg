@@ -44,7 +44,7 @@ We use three commonly used multi-domain datasets.
 * Digits-DG | Download Link: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
 
 ```bash
-Please download the datasets in the directory Dassl/data
+Please download the datasets in the directory Dassl/data/
 ```
 
 ## Training
