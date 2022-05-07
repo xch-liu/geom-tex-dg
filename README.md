@@ -14,3 +14,42 @@ If you find this code useful for your research, please cite
   year={2022}
 }
 ```
+
+## Preresquisites
+
+
+```bash
+# Create the conda environment (make sure conda is installed)
+conda create -n dassl python=3.7
+conda activate dassl
+
+# Install dependencies
+cd Dassl/
+pip install -r requirements.txt
+
+# Install torch (version >= 1.7.1) and torchvision based on your cuda version 
+conda install pytorch torchvision cudatoolkit=your_cuda_version -c pytorch
+
+# Install this library (no need to re-build if the source code is modified)
+python setup.py develop
+```
+
+## Datasets Downloads
+
+PACS: [google drive](https://drive.google.com/open?id=1m4X4fROCCXMO0lRLrr6Zz9Vb3974NWhE).   Office-Home-DG: [google drive](https://drive.google.com/open?id=1gkbf_KaxoBws-GWT3XIPZ7BnkqbAxIFa).   Digits-DG: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
+
+## Training
+
+```bash
+cd geom-tex-dg/scripts
+
+# Training on PACS
+bash pacs.sh
+
+# Training on Office-Home
+bash officehome.sh
+
+# Training on Digits-DG
+bash digits.sh
+```
+
