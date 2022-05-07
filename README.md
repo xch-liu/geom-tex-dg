@@ -58,4 +58,3 @@ bash officehome.sh
 # Training on Digits-DG
 bash digits.sh
 ```
-
