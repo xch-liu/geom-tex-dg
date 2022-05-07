@@ -50,7 +50,7 @@ Please download the datasets in the directory Dassl/data
 ## Training
 
 ```bash
-cd geom-tex-dg/scripts
+cd gta-dgr/scripts
 
 # Training on PACS
 bash pacs.sh
