@@ -18,7 +18,7 @@ If you find this code useful for your research, please cite
 ## Preresquisites
 
 ### Testbed Install: 
-We use [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch) as the testbed and follow the training and evaluation protocol.
+We use [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch) as the testbed and the code is based on it.
 
 ```bash
 # Create the conda environment (make sure conda is installed)
