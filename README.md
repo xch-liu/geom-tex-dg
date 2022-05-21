@@ -37,13 +37,13 @@ python setup.py develop
 ```
 
 ### Datasets Install:
-We use three commonly used multi-domain datasets (download the datasets to this [folder]).
+We use three commonly used multi-domain datasets (please download datasets into this [folder](https://github.com/xch-liu/geom-tex-dg/tree/main/Dassl/data)):
 
 * PACS ([Li et al., 2017](https://arxiv.org/abs/1710.03077)) | Download Link: [google drive](https://drive.google.com/open?id=1m4X4fROCCXMO0lRLrr6Zz9Vb3974NWhE).
 * Office-Home-DG ([Venkateswara et al., 2017](https://arxiv.org/abs/1706.07522)) | Download Link: [google drive](https://drive.google.com/open?id=1gkbf_KaxoBws-GWT3XIPZ7BnkqbAxIFa).
 * Digits-DG | Download Link: [google drive](https://drive.google.com/open?id=15V7EsHfCcfbKgsDmzQKj_DfXt_XYp_P7).
 
-Download the style predictor [model](https://drive.google.com/file/d/1SR6nred3nUxTHxreuQ5jyzWqwshGmDYu/view?usp=sharing) and put it in this [folder](https://github.com/xch-liu/geom-tex-dg/tree/main/Dassl/dassl/modeling/backbone/styleaugment/styleaug/checkpoints).
+Download the style predictor [model](https://drive.google.com/file/d/1SR6nred3nUxTHxreuQ5jyzWqwshGmDYu/view?usp=sharing) into this [folder](https://github.com/xch-liu/geom-tex-dg/tree/main/Dassl/dassl/modeling/backbone/styleaugment/styleaug/checkpoints).
 
 ## Training
 
