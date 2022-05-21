@@ -45,7 +45,7 @@ We use three commonly used multi-domain datasets (please download datasets into 
 
 Download the style predictor [model](https://drive.google.com/file/d/1SR6nred3nUxTHxreuQ5jyzWqwshGmDYu/view?usp=sharing) into this [folder](https://github.com/xch-liu/geom-tex-dg/tree/main/Dassl/dassl/modeling/backbone/styleaugment/styleaug/checkpoints).
 
-## Training
+## Training and Testing
 
 ```bash
 cd gta-dgr/scripts/
