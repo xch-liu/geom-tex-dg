@@ -1,0 +1,10 @@
+INPUT:
+  SIZE: (64, 64)
+  TRANSFORMS: ['random_deformation']
+
+DATASET:
+  NAME: 'DigitsDG'
+
+MODEL:
+  BACKBONE:
+    NAME: 'cnn_digitsdg'
