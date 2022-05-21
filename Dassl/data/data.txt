@@ -1,0 +1,3 @@
+pacs
+office_home_dg
+digits_dg
