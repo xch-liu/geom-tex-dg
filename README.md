@@ -47,6 +47,8 @@ We use three commonly used multi-domain datasets.
 Please download the datasets in the directory Dassl/data/
 ```
 
+Download the [style predictor model](https://drive.google.com/file/d/1SR6nred3nUxTHxreuQ5jyzWqwshGmDYu/view?usp=sharing)
+
 ## Training
 
 ```bash
